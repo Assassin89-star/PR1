@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic');
+.body {
+    margin: 0;
+    font-family: Nunito Sans, Arial;
+} 
+.body * {
+    box-string: border-box;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.text {
+    position: relative;
+    padding: 10px;
+    left: 0px;
+    right: 20.69%;
+    top: 4.68%;
+    bottom: 93.29%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+.button {
+    background: #E3B873;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button1 {
+    position: relative;
+    padding: 20px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    width: 300px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button2 {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 280px;
+    left: 100px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.logo {
+    color: #E3B873;
+}
+.header {
+    background-color: black;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+.header-navigation_item {
+    margin-right: 47px;
+}
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    height: 700px;
+    padding-top: 194px;
+    position: relative;
+}
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+.element {
+    margin-left: 134px;
+    margin-right: 627.89px;
+    margin-top: 194px;
+    margin-bottom: 208px;
+}
+.element_2 {
+    margin-left: 0 auto;
+    font-family: Nunito Sans, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.title {
+    margin: 0;
+    width: 550px;
+    top: 10px;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
