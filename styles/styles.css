@@ -125,7 +125,10 @@
     margin-bottom: 208px;
 }
 .element_2 {
+    position: relative;
     margin-left: 0 auto;
+    width: 600px;
+    top: 0px;
     font-family: Nunito Sans, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
