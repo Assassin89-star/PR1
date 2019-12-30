@@ -15,7 +15,7 @@
     box-string: border-box;
 }
 .container {
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .text {
@@ -46,7 +46,6 @@
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 .button1 {
@@ -87,10 +86,12 @@
 }
 .header {
     background-color: black;
+    width: 1440px;
 }
 .header-content {
     display: flex;
     justify-content: space-between;
+    width: 1400px;
     height: 83px;
     align-items: center;
 }
@@ -108,6 +109,7 @@
 .hero {
     background-image: url("../images/hero.jpg");
     background-size: cover;
+    width: 1440px;
     height: 700px;
     padding-top: 194px;
     position: relative;
@@ -155,4 +157,719 @@
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+/*______________________________STEP__2_____________________________________________________________*/
+.blok {
+    position: absolute;
+    margin: -10px;
+    background-image: url("../images/Rectangle_1.jpg");
+    width: 1450px;
+    height: 1000px;
+    top: 810px;
+}
+.line1 {
+    background-image: url("../images/Rectangle 6.svg");
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    background: #E3B873;
+}
+.blok1 {
+    position: relative;
+    background-image: url("../images/image 2.1.jpg");
+    left: 640px;
+    top: 200px;
+    width: 600px;
+    height: 432px;
+}
+.blok2 {
+    position: absolute;
+    padding: 120px;
+    width: 260px;
+    left: 10px;
+    top: 100px;
+}
+.blok2a {
+    position: absolute;
+    background-image: url("../images/Group 8.4.svg");
+    padding: 6px;
+    left: 50px;
+    width: 205px;
+    top: 500px;
+}
+.blok3a {
+    position: relative;
+    background-color: black;
+    border: solid 1px rgb(8, 8, 0);
+    width: 300px;
+    hidht: 80px;
+    left: 10px;
+    top: 30px;
+}
+.control {
+    position: absolute;
+    padding: 5px;
+    width: 220px;
+    hidht: 66px;
+    left: 620px;
+    top: 550px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.lineLeft {
+    background-image: url(../images/Rectangle 6.7.jpg);
+    position: absolute;
+    padding: 1px;
+    width: 40px;
+    left: 660px;
+    top: 605px;
+    background: #E3B873;
+    border-radius: 30px;
+}
+.kamera {
+    background-image: url(../images/Step1_cam/Group.svg);
+    position: absolute;
+    padding: 15px;
+    width: 10px;
+    left: 710px;
+    top: 590px;
+}
+.lineRight {
+    background-image: url(../images/Rectangle 6.8.jpg);
+    position: absolute;
+    padding: 1px;
+    width: 40px;
+    left: 750px;
+    top: 605px;
+    background: #E3B873;
+    border-radius: 30px;
+}
+.blok3 {
+    position: absolute;
+    width: 100px;
+    left: 100px;
+    top: 750px;
+}
+.fonBack {
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    left: 300px;
+    top: 0px;
+    width: 700px;
+    height: 400px;
+    z-index: 9900;
+}
+.imageOne {
+    position: absolute;
+    background-image: url("../images/image 6.jpg");
+    left: 300px;
+    top: 0px;
+    width: 700px;
+    height: 400px;
+    z-index: 1;
+}
+.buttonArrow {
+    position: absolute;
+    padding: 80px;
+    top: 145px;
+    left: 585px;
+    background-image: url("../images/Group 8.svg");
+    z-index: 9990;
+}
+.lineCentre {
+    background-image: url("../images/Rectangle 6.9.jpg");
+    position: absolute;
+    padding: 2px;
+    width: 60px;
+    left: 700px;
+    top: 1200px;
+    background: #E3B873;
+    border-radius: 30px;
+}
+.blokText {
+    position: absolute;
+    width: 700px;
+    hidht: 310.81px;
+    margin-left: 300px;
+    left: 100px;
+    top: 1230px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+.element2_7 {
+    position: absolute;
+    width: 253px;
+    hidth: 66px;
+    left: 50px;
+    top: 50px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_8 {
+    position: absolute;
+    border: solid 2px ;
+    width: 190px;
+    hidht: 17px;
+    left: 650px;
+    top: 70px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_9 {
+    position: absolute;
+    border: solid 2px ;
+    width: 109px;
+    hidht: 17px;
+    left: 880px;
+    top: 70px;
+    font-family: Yeseva One;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.element2_10 {
+    position: absolute;
+    border: solid 2px ;
+    width: 200px;
+    hidht: 17px;
+    left: 1020px;
+    top: 70px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.element2_12 {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 50px;
+    top: 150px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.element2_13 {
+    background: #E3B873;
+    position: absolute;
+    width: 194px;
+    hidht: 1px;
+    left: 700px;
+    top: 100px;
+}
+.element2_14 {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 50px;
+    top: 250px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_14a {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 50px;
+    top: 280px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.element2_15 {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 250px;
+    top: 250px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_15a {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 250px;
+    top: 280px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.element2_16 {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 50px;
+    top: 350px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_16a {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 50px;
+    top: 380px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.element2_17 {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 250px;
+    top: 350px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.element2_17a {
+    position: absolute;
+    width: 410px;
+    hidht: 86px;
+    left: 250px;
+    top: 380px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blok7 {
+    position: absolute;
+    padding: 50px;
+    width: 650px;
+    left: 450px;
+    top: 1450px;
+}
+.blok7a1 {
+    position: absolute;
+    padding: 4px;
+    width: 200px;
+    left: 5px;
+    top: 5px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.blok7a2 {
+    position: absolute;
+    padding: 4px;
+    width: 200px;
+    left: 230px;
+    top: 5px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.blok7a3 {
+    position: absolute;
+    padding: 4px;
+    width: 200px;
+    left: 5px;
+    top: 45px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+.blok7a4 {
+    position: absolute;
+    padding: 4px;
+    width: 200px;
+    left: 230px;
+    top: 45px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+.blok7b {
+    position: relative;
+    width: 195px;
+    hight: 20px;
+    float: center;
+    background: #E3B873;
+    position: absolute;
+    padding: 20px;
+    left: 500px;
+    top: 5px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+.blok7b1 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #181818;
+}
+.blok7lineLeft {
+    position: relative;
+    background-image: url("../images/Rectangle 2.7.jpg");
+    width: 180px;
+    top: 20px;
+    left: -40px;
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.blok7lineRight {
+    position: relative;
+    background-image: url("../images/Rectangle 2.7.jpg");
+    width: 180px;
+    top: 20px;
+    left: 180px;
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.blok7bird {
+    position: relative;
+    background-image: url("../images/Group 48.jpg");
+    padding: 10px;
+    width: 10px;
+    top: 70px;
+    left: 120px;
+}
+.text7b {
+    position: relative;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text7c {
+    position: relative;
+    left: 50px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.TypesOFrepair {
+    position: absolute;
+    padding: 20px;
+    left: 650px;
+    top: 1700px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;;
+}
+.blok8Label {
+    position: absolute;
+    background-image: url("../images/Group 11.4.svg");
+    padding: 20px;
+    width: 110px;
+    left: 700px;
+    top: 1750px;
+}
+.blokDown {
+    position: absolute;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1800px;
+}
+.blok8 {
+    position: absolute;
+    background-image: url("../images/image 2.2.jpg");
+    margin-left: 100px;
+    top: 10px;
+    width: 392px;
+    height: 421px;
+}
+.element2_3 {
+    position: absolute;
+    width: 220px;
+    hight: 80px;
+    background: #E3B873;
+    border: solid 2px ;
+    padding: 20px;
+    left: 30px;
+    top: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+.element2_19 {
+    position: absolute;
+    margin-right: 15px;
+    margin-left: 70px;
+    width: 310px;
+    Height: 240px;
+    float: left;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    left: -40px;
+    top: 290px;
+    border-radius: 2px;
+}
+.element2_19a {
+    position: absolute;
+    opacity: 0.7;
+    background: #FFFFFF;
+    width: 300px;
+    height: 21px;
+    top: 00px;
+    border: 4px solid #FFFFFF;
+    padding: 6px;
+    padding-right: 15px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.element2_19b {
+    background: #FFFFFF;
+    position: absolute;
+    padding: 2px;
+    width: 300px;
+    height: 150px;
+    margin-left: -5px;
+    margin-right: auto;
+    margin-top: 35px;
+    border: 2px solid #FFFFFF;
+}
+.blok9 {
+    position: relative;
+    background-image: url("../images/image 2.3.jpg");
+    margin-left: 560px;
+    top: 10px;
+    width: 392px;
+    height: 421px;
+}
+.element2_4 {
+    position: absolute;
+    width: 230px;
+    hight: 20px;
+    background: #E3B873;
+    border: solid 2px;
+    padding: 20px;
+    left: 40px;
+    top: 260px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+.element2_20 {
+    position: absolute;
+    margin-right: 15px;
+    margin-left: 70px;
+    width: 325px;
+    Height: 240px;
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    position: relative;
+    padding: 30px;
+    left: -30px;
+    top: 280px;
+    border-radius: 2px;
+}
+.element2_19a1 {
+    position: absolute;
+    opacity: 0.7;
+    background: #FFFFFF;
+    left: 20px;
+    top: 10px;
+    width: 230px;
+    height: 21px;
+    border: 4px solid #FFFFFF;
+    padding: 6px;
+    padding-right: 15px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.element2_19b1 {
+    float: left;
+    background: #FFFFFF;
+    position: absolute;
+    padding: 2px;
+    width: 300px;
+    height: 250px;
+    margin-left: -5px;
+    margin-right: auto;
+    margin-top: 35px;
+    border: 2px solid #FFFFFF;
+}
+.blok9a {
+    position: absolute;
+    background-image: url("../images/image 2.4.jpg");
+    margin-left: 1020px;
+    top: 10px;
+    width: 392px;
+    height: 421px;
+}
+.element2_5 {
+    position: absolute;
+    width: 230px;
+    hight: 20px;
+    float: center;
+    background: #E3B873;
+    border: solid 2px ;
+    padding: 20px;
+    left: 50px;
+    top: 260px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.element2_21 {
+    margin-right: 15px;
+    margin-left: 70px;
+    position: absolute;
+    left: 790px;
+    top: 2120px;
+    width: 290px;
+    Height: 365px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    border-radius: 2px;
+}
+.element2_19a2 {
+    position: absolute;
+    opacity: 0.7;
+    background: #FFFFFF;
+    left: 40px;
+    top: 10px;
+    width: 228px;
+    height: 21px;
+    border: 4px solid #FFFFFF;
+    padding-right: 15px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.element2_19b2 {
+    position: absolute;
+    float: left;
+    background: #FFFFFF;
+    left: 40px;
+    top: 60px;
+    padding: 2px;
+    width: 267px;
+    height: 178px;
+    border: 2px solid #FFFFFF;
 }
