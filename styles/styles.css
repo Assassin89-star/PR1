@@ -35,6 +35,7 @@
     box-string: border-box;
 }
 .container {
+    position: static;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -42,8 +43,9 @@
     color: #E3B873;
 }
 .header {
+    position: static;
     background-color: black;
-    /*width: 1440px;*/
+    width: 1440px;
 }
 .header-text {
     font-family: Nunito Sans;
@@ -77,6 +79,7 @@
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
+    width: 1440px;
     height: 510px;
     padding-top: 194px;
     position: relative;
@@ -181,9 +184,9 @@
     color: #E3B873;
 }
 .section2 {
-    position: absolute;
+    position: static;
     background-color: black;
-    width: 1264px;
+    width: 1440px;
     height: 1070px;
     top: 785px;
 }
@@ -427,7 +430,7 @@
     z-index: 9990;
 }
 .section3 {
-    position: absolute;
+    position: static;
     width: 1440px;
     height: 900px;
     top: 1800px;
@@ -577,8 +580,8 @@
     color: #181818;
 }
 .section4 {
-    position: absolute;
-    width: 1263px;
+    position: static;
+    width: 1440px;
     height: 900px;
     left: -40px;
     top: 2550px;
@@ -594,7 +597,7 @@
     position: relative;
     width: 257px;
     height: 27px;
-    left: 520px;
+    left: 580px;
     top: 10px;
     font-family: Yeseva One;
     font-style: normal;
@@ -610,7 +613,7 @@
     background-image: url("../images/Group 11.4.svg");
     width: 114px;
     height: 28px;
-    left: 590px;
+    left: 650px;
     top: 40px;
 }
 .section4-container1-heading1 {
@@ -711,7 +714,7 @@
     background-image: url("../images/imageBlok2.jpg");
     width: 392px;
     height: 421px;
-    left: 440px;
+    left: 485px;
     top: -280px;
 }
 .section4-container1-blok3 {
@@ -719,7 +722,7 @@
     background-image: url("../images/imageBlok3.jpg");
     width: 392px;
     height: 421px;
-    left: 880px;
+    left: 960px;
     top: -700px;
 }
 .section4-container2 {
@@ -1096,14 +1099,14 @@
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 .section5 {
-    position: absolute;
-    width: 1263px;
+    position: relative;
+    width: 1440px;
     height: 864px;
-    top: 4400px;
+    top: 900px;
 }
 .section5-container1 {
     position: relative;
-    width: 1263px;
+    width: 1440px;
     height: 850px;
     left: 0px;
     top: 0px;
@@ -1129,7 +1132,7 @@
     border: solid 1px rgb(40, 43, 7);
     background-size: cover;
     background-color: rgba(0. 0. 0. .7);
-    width: 1263px;
+    width: 1440px;
     height: 850px;
     left: 0px;
     background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
@@ -1138,7 +1141,7 @@
 .section5-container1-background {
     background-image: url("../images/image 5.1.jpg");
     position: absolute;
-    width: 1263px;
+    width: 1440px;
     height: 850px;
     left: 0px
     top: 850px;
@@ -1185,7 +1188,7 @@
 .section5-container1-backgroundImage{
     position: relative;
     width: 1500px;
-    left: -120px;
+    left: 20px;
     height: 1500px;
     top: 220px;
 }
@@ -1226,10 +1229,10 @@
     z-index: 9999;
 }
 .section6 {
-    position: absolute;
-    width: 1263px;
+    position: relative;
+    width: 1440px;
     height: 864px;
-    top: 5400px;
+    top: 900px;
 }
 .section6-container1 {
     position: relative;
@@ -1242,7 +1245,7 @@
     position: relative;
     width: 1236px;
     height: 643px;
-    left: 0px;
+    left: 120px;
     top: 0px;
     z-index: 1;
 }
@@ -1437,10 +1440,10 @@
     top: 0px;
 }
 .section7 {
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 864px;
-    top: 6300px;
+    top: 1000px;
 }
 .section7-container {
     position: relative;
@@ -1638,7 +1641,7 @@
 .section7-container2-Fon {
     position: relative;
     background-image: url("../images/image 7.2.jpg");
-    width: 1263px;
+    width: 1440px;
     height: 954px;
     left: -100px;
     top: -20px;
@@ -1646,7 +1649,7 @@
 }
 .section7-container2-Fon2 {
     position: relative;
-    width: 1263px;
+    width: 1440px;
     height: 960px;
     left: 0px;
     top: -980px;
@@ -1703,17 +1706,17 @@
     z-index: 9999;
 }
 .section8 {
-    position: absolute;
+    position: relative;
     background: gray;
-    width: 1263px;
+    width: 1440px;
     height: 120px;
-    top: 7350px;
+    top: 1200px;
     z-index: 9999;
 }
 .section8-footer {
     position: relative;
     background-color: black;
-    width: 1263px;
+    width: 1440px;
     height: 120px;
 }
 .footer-content {
