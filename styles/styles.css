@@ -43,7 +43,7 @@
 }
 .header {
     background-color: black;
-    width: 1440px;
+    /*width: 1440px;*/
 }
 .header-text {
     font-family: Nunito Sans;
@@ -77,18 +77,13 @@
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
-    display: inline-block;
-    width: 1440px;
     height: 510px;
     padding-top: 194px;
     position: relative;
 }
 .hero-container {
     position: relative;
-    margin-left: 134px;
-    margin-right: 627.89px;
-    margin-top: 194px;
-    margin-bottom: 208px;
+    padding: 100px 700px 300px 50px;
     z-index: 1;
 }
 .title {
@@ -157,7 +152,7 @@
     box-sizing: border-box;
     border-radius: 2px;
     width: 200px;
-    left: 100px;
+    left: 20px;
     top: -50px;
     font-family: Nunito Sans;
     font-style: italic;
@@ -185,13 +180,17 @@
     text-transform: uppercase;
     color: #E3B873;
 }
-.section2-blok1 {
+.section2 {
     position: absolute;
-    width: 1440px;
-    height: 1070px;
-    left: 0px;
-    top: 780px;
     background-color: black;
+    width: 1264px;
+    height: 1070px;
+    top: 785px;
+}
+.section2-blok1 {
+    position: relative;
+    left: -90px;
+    top: 0px;
 }
 .section2-blok1-container {
     position: absolute;
@@ -435,8 +434,8 @@
 }
 .section3-container1 {
     position: relative;
-    margin: 10px;
-    width: 1420px;
+    margin: 0px;
+    width: 1263px;
     height: 880px;
     top: 0px;
 }
@@ -446,14 +445,14 @@
     margin: 10px;
     width: 55px;
     height: 1.54px;
-    left: 720px;
+    left: 620px;
     top: 300px;
     background: #E3B873;
     border-radius: 30px;
 }
 .section3-container1-text {
     position: relative;
-    left: 450px;
+    left: 350px;
     top: -550px;
     width: 680px;
     height: 140px;
@@ -474,8 +473,7 @@
 }
 .section3-container1-form {
     position: relative;
-    left: 30px;
-    top: 0px;
+    left: -30px;
     width: 900px;
     height: 100px;
 }
@@ -580,8 +578,9 @@
 }
 .section4 {
     position: absolute;
-    width: 1440px;
+    width: 1263px;
     height: 900px;
+    left: -40px;
     top: 2550px;
 }
 .section4-container1 {
@@ -595,7 +594,7 @@
     position: relative;
     width: 257px;
     height: 27px;
-    left: 580px;
+    left: 520px;
     top: 10px;
     font-family: Yeseva One;
     font-style: normal;
@@ -611,7 +610,7 @@
     background-image: url("../images/Group 11.4.svg");
     width: 114px;
     height: 28px;
-    left: 650px;
+    left: 590px;
     top: 40px;
 }
 .section4-container1-heading1 {
@@ -704,7 +703,7 @@
     background-image: url("../images/imageBlok1.jpg");
     width: 392px;
     height: 421px;
-    left: 20px;
+    left: 10px;
     top: 100px;
 }
 .section4-container1-blok2 {
@@ -712,7 +711,7 @@
     background-image: url("../images/imageBlok2.jpg");
     width: 392px;
     height: 421px;
-    left: 500px;
+    left: 440px;
     top: -280px;
 }
 .section4-container1-blok3 {
@@ -720,13 +719,12 @@
     background-image: url("../images/imageBlok3.jpg");
     width: 392px;
     height: 421px;
-    left: 980px;
+    left: 880px;
     top: -700px;
 }
 .section4-container2 {
     position: relative;
-    margin: 20px;
-    width: 1400px;
+    width: 1263px;
     height: 800px;
     top: 400px;
 }
@@ -734,8 +732,6 @@
     position: absolute;
     width: 840px;
     height: 600px;
-    left: 0px;
-    top: 0px;
 }
 .section4-container2-blok1a {
     position: relative;
@@ -775,6 +771,7 @@
     position: relative;
     width: 80px;
     height: 80px;
+    left: -20px;
     background: #FFFFFF;
     background-image: url("../images/Rectangle 8.1.svg");
 }
@@ -955,7 +952,7 @@
     position: relative;
     width: 506px;
     height: 509px;
-    left: 890px;
+    left: 750px;
     top: 0px;
     border: solid 1px rgb(40, 43, 7);
     background: #131313;
@@ -1081,15 +1078,15 @@
     background-image: url("../images/Group.svg");
     width: 110px;
     height: 110px;
-    left: 0px;
-    top: 0px;
+    left: -140px;
+    top: 20px;
     z-index: 9990;
 }
 .section4-container3-text {
     position: relative;
     width: 300px;
-    left: 120px;
-    top: -80px;
+    left: -40px;
+    top: -70px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -1100,13 +1097,13 @@
 }
 .section5 {
     position: absolute;
-    width: 1440px;
+    width: 1263px;
     height: 864px;
     top: 4400px;
 }
 .section5-container1 {
-    position: absolute;
-    width: 1440px;
+    position: relative;
+    width: 1263px;
     height: 850px;
     left: 0px;
     top: 0px;
@@ -1132,7 +1129,7 @@
     border: solid 1px rgb(40, 43, 7);
     background-size: cover;
     background-color: rgba(0. 0. 0. .7);
-    width: 1440px;
+    width: 1263px;
     height: 850px;
     left: 0px;
     background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
@@ -1141,7 +1138,7 @@
 .section5-container1-background {
     background-image: url("../images/image 5.1.jpg");
     position: absolute;
-    width: 1440px;
+    width: 1263px;
     height: 850px;
     left: 0px
     top: 850px;
@@ -1197,7 +1194,7 @@
     background-image: url("../images/image 5.jpg");
     width: 354px;
     height: 558px;
-    left: 800px;
+    left: 600px;
     top: -670px;
     z-index: 9999;
 }
@@ -1206,7 +1203,7 @@
     background-image: url("../images/image 5a.jpg");
     width: 354px;
     height: 275px;
-    left: 1200px;
+    left: 1000px;
     top: -750px;
     z-index: 9999;
 }
@@ -1215,7 +1212,7 @@
     background-image: url("../images/image 5b.jpg");
     width: 354px;
     height: 625px;
-    left: 1200px;
+    left: 1000px;
     top: -420px;
     z-index: 9999;
 }
@@ -1224,13 +1221,13 @@
     background-image: url("../images/image 5c.jpg");
     width: 354px;
     height: 350px;
-    left: 800px;
+    left: 600px;
     top: -50px;
     z-index: 9999;
 }
 .section6 {
     position: absolute;
-    width: 1440px;
+    width: 1263px;
     height: 864px;
     top: 5400px;
 }
@@ -1254,7 +1251,7 @@
     padding: 20px;
     width: 257px;
     height: 26px;
-    left: 500px;
+    left: 400px;
     top: 0px;
     font-family: Yeseva One;
     font-style: normal;
@@ -1272,14 +1269,14 @@
     padding: 16px;
     width: 100px;
     hidht: 20px;
-    left: 590px;
+    left: 490px;
     top: 50px;
 }
 .section6-container1-Text {
     position: absolute;
     width: 476px;
     height: 57px;
-    left: 400px;
+    left: 300px;
     top: 100px;
     font-family: Nunito Sans;
     font-style: normal;
@@ -1293,7 +1290,7 @@
     position: relative;
     width: 376px;
     height: 428px;
-    left: 0px;
+    left: -60px;
     top: 180px;
 }
 .section6-container1-blok1Foto {
@@ -1343,7 +1340,7 @@
     position: relative;
     width: 376px;
     height: 428px;
-    left: 435px;
+    left: 350px;
     top: -250px;
 }
 .section6-container1-blok2Foto {
@@ -1393,7 +1390,7 @@
     position: relative;
     width: 376px;
     height: 428px;
-    left: 870px;
+    left: 740px;
     top: -680px;
 }
 .section6-container1-blok3Foto {
@@ -1449,13 +1446,13 @@
     position: relative;
     width: 1240px;
     height: 640px;
-    left: 100px;
+    left: 0px;
     top: 50px;
 }
 .section7-container-Frame1 {
     position: relative;
     background-image: url("../images/Frame3_6F1.svg");
-    width: 1127px;
+    width: 1000px;
     height: 770px;
     left: -500px;
     top: -700px;
@@ -1633,15 +1630,15 @@
 }
 .section7-container2 {
     position: relative;
-    width: 1240px;
+    width: 120px;
     height: 1000px;
-    left: 100px;
+    left: 0px;
     top: -500px;
 }
 .section7-container2-Fon {
     position: relative;
     background-image: url("../images/image 7.2.jpg");
-    width: 1440px;
+    width: 1263px;
     height: 954px;
     left: -100px;
     top: -20px;
@@ -1649,9 +1646,9 @@
 }
 .section7-container2-Fon2 {
     position: relative;
-    width: 1440px;
+    width: 1263px;
     height: 960px;
-    left: -100px;
+    left: 0px;
     top: -980px;
     background: linear-gradient(180deg,
     rgba(24, 24, 24, 0.9) 3.47%,
@@ -1662,7 +1659,7 @@
     position: relative;
     width: 589px;
     height: 199px;
-    left: 450px;
+    left: 350px;
     top: 300px;
     font-family: Yeseva One;
     font-style: normal;
@@ -1677,7 +1674,7 @@
     position: relative;
     width: 71px;
     height: 28px;
-    left: 720px;
+    left: 620px;
     top: 0px;
 }
 .section7-container2-button1 {
@@ -1708,20 +1705,16 @@
 .section8 {
     position: absolute;
     background: gray;
-    width: 1440px;
-    height: 133px;
+    width: 1263px;
+    height: 120px;
     top: 7350px;
+    z-index: 9999;
 }
 .section8-footer {
     position: relative;
-    width: 1440px;
-    height: 120px;
-    left: 0px;
-    top: 10px;
-}
-.section8-footer {
     background-color: black;
-    width: 1440px;
+    width: 1263px;
+    height: 120px;
 }
 .footer-content {
     position: relative;
